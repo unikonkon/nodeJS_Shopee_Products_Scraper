@@ -1,0 +1,29 @@
+{
+  "name": "shopee-popular-scraper",
+  "version": "1.0.0",
+  "description": "Shopee Thailand popular products scraper using Ulixee Hero framework",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "cloud": "node src/cloud-server.js",
+    "scrape": "node src/index.js",
+    "debug": "node src/debug-selectors.js"
+  },
+  "keywords": [
+    "shopee",
+    "scraper",
+    "ulixee",
+    "hero",
+    "popular-products"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ulixee/cloud": "^2.0.0-alpha.29",
+    "@ulixee/hero": "^2.0.0-alpha.29",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
+
